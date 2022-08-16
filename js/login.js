@@ -4,6 +4,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     // always remember to use .value to get text from an input field
     const emailField = document.getElementById('user-email');
     const email = emailField.value;
+    emailField.value = "";
     // setp 3: get password
     //3.a: set id on the html element
     //3.b: get the element
